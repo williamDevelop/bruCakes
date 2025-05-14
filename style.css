@@ -511,3 +511,18 @@ background: linear-gradient(135deg, rgba(250, 208, 196, 0.8), rgba(255, 209, 255
     opacity: 0;
   }
 }
+
+#whatsapp-icon {
+  position: fixed;
+  right: 20px;
+  bottom: 70px;
+  z-index: 1000;
+}
+
+#whatsapp-icon img {
+  width: 60px; /* Ajuste o tamanho da imagem conforme necessário */
+  height: 60px;
+  border-radius: 50%; /* Se quiser deixar a imagem arredondada */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
